@@ -39,7 +39,7 @@ public class MainController {
     }
 
     public void test1(){
-        System.out.println("小强");
+        System.out.println("小强11");
     }
 
 
