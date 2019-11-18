@@ -19,7 +19,7 @@ public class MainController {
         return "index";
     }
 
-    //查询所有-用户的方法
+    //查询所有-用户的方法-----组员
     @RequestMapping("findAllUsers")
     public String findAllUsers(){
 
