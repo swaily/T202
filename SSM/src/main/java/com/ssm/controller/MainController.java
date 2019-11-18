@@ -19,7 +19,7 @@ public class MainController {
         return "index";
     }
 
-    //查询所有--1111-2-用户的方法
+    //查询所有-用户的方法
     @RequestMapping("findAllUsers")
     public String findAllUsers(){
 
@@ -36,6 +36,10 @@ public class MainController {
         System.out.println(r);
 
         return "index";
+    }
+
+    public void test1(){
+        System.out.println("小强");
     }
 
 
